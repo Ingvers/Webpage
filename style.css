@@ -1,0 +1,145 @@
+:root {
+  --bacground_color_one: #fff;
+  --bacground_color_two: rgb(187, 177, 177);
+
+  --border_color: #FE6D02;
+
+  --highlight_color: #38A4DC;
+
+  --text_color_one: #5C6163;
+  --text_color_two: #555;
+  --text_color_three: rgb(254, 136, 2);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bacground_color_two);
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+  text-decoration: none;
+  color: var(--highlight_color);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+  background-color: var(--bacground_color_one);
+  border-left: 1px solid var(--border_color);
+  border-right: 1px solid var(--border_color);
+  box-sizing: border-box;
+}
+
+.inner {
+  width: 100%;
+  max-width: 73.125rem;
+  margin: 0 auto;
+  height: inherit;
+}
+
+.top_header {
+  background-color: var(--bacground_color_two);
+  min-height: 3.125rem;
+}
+
+.busines_partners {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  line-height: 3.125rem;
+}
+
+.busines_partners a {
+  font-weight: 500;
+  margin-left: 1.875rem;
+}
+
+.busines_partners div {
+  color: var(--text_color_one);
+}
+
+.header {
+  height: 6.25rem;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text_color_three);
+}
+
+.logo span {
+  font-weight: 700;
+  color: var(--text_color_two);
+}
+
+.page_menu a {
+  color: var(--text_color_one);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.625rem;
+  margin: 0.9375rem;
+}
+
+.page_menu a.active, .page_menu a:hover {
+  background: var(--highlight_color);
+  color: var(--bacground_color_one);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.phone_number {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--highlight_color);
+  line-height: 1.5rem;
+  display: flex;
+  align-content: center;
+}
+
+.phone_number span {
+  margin-left: 0.5rem;
+}
+
+.hero_header {
+  height: 43.75rem;
+  background-image: url("project photos/maxresdefault.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.hero_header_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subheadline {
+  color: var(--bacground_color_one);
+  font-size: 1.25rem;
+  margin-bottom: 3.75rem;
+}
+
+a.button {
+  background: linear-gradient(199.55deg, #FDD6BD 0%, #FE6D02 100%);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  color: var(--bacground_color_one);
+  font-weight: 500;
+  padding: 0 2.5rem;
+  line-height: 3.75rem;
+  display: inline-block;
+}
+
